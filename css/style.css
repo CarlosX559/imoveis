@@ -1,0 +1,805 @@
+@font-face {
+    font-family: 'Giane_Gothic_sans';
+    src: url('../fonts/GianeGothicsans-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Giane_Gothic_sans';
+    src: url('../fonts/GianeGothicsans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Allrounder Monument';
+    src: url('../fonts/Moritz\ Kleinsorge-Allrounder-Grotesk-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Allrounder Monument';
+    src: url('../fonts/Moritz-Kleinsorge-Allrounder-Monument-Medium.otf');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1D1A1A;
+}
+.area_menu_mobile {
+    display: none;
+ }
+.area_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.area_menu_int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 60px;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+nav ul a li {
+    font-family: 'Giane_Gothic_sans';
+    font-weight: bold;
+    letter-spacing: 0.075em;
+}
+
+#container_1 {
+    background-image: url(../img/img_header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 728px;
+}
+
+.container_1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container_1_int {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 60px;
+}
+
+.area_texts_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    text-align: center;
+}
+
+.area_texts_1 h2 {
+    font-family: 'Allrounder Monument';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fff;
+    margin: 0px;
+    letter-spacing: 0.075em;
+}
+
+.area_texts_1 h3 {
+    font-family: 'Giane_Gothic_sans';
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    margin: 0px;
+    letter-spacing: 0.075em;
+}
+
+.btn_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    background: #FE9027;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+
+.btn_1 h2 {
+    font-family: 'Giane_Gothic_sans';
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    margin: 0px;
+}
+
+.vetor_1 {
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+}
+
+.vetor_1 img {
+    width: 100%;
+    max-width: max-content;
+}
+
+.vetor_2 {
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+}
+
+.vetor_2 img {
+    width: 100%;
+    max-width: max-content;
+}
+
+#container_2 {
+    width: 100%;
+    background: linear-gradient(188.11deg, #120C09 4.26%, #401E0D 48.19%, #713A1E 70.26%, #BA7B3C 93.77%, #BA7B3C 93.77%);
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px 0px 100px 0px;
+}
+
+.container_2_int {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.area_container_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title_2 h2 {
+    font-family: 'Allrounder Monument';
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px 0px 60px 0px;
+}
+
+.area_imgs {
+    display: flex !important;
+    width: 86% !important;
+    max-width: 1440px;
+}
+
+.owl-item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item {
+    max-width: max-content;
+    width: 100%;
+
+}
+
+.item .img {
+    cursor: pointer;
+}
+
+.img_1 {
+    background-image: url(../img/img_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 340px;
+    height: 563px;
+}
+
+.img_2 {
+    background-image: url(../img/img_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 563px;
+}
+
+.img_3 {
+    background-image: url(../img/img_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 340px;
+    height: 563px;
+}
+
+@keyframes modal {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.area_modal {
+    animation: modal 300ms ease-in;
+    transition: all ease-in-out .3s;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    background: linear-gradient(180deg, #1D110B 0%, #AB6E36 100%), rgba(255, 255, 255, 0.2);
+    z-index: 999;
+}
+
+.area_modal_int {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.area_modal_int svg {
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0px 20px;
+}
+
+.modal_int {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.modal_int img {
+    width: 100%;
+    max-width: max-content;
+    box-shadow: 1px 8px 13px 6px rgba(0, 0, 0, 0.38);
+    border-radius: 30px;
+}
+
+.texts_modal {
+    max-width: 400px;
+    width: 100%;
+}
+
+.texts_modal h2 {
+    font-family: 'Giane_Gothic_sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+}
+
+.texts_modal p {
+    font-family: 'Giane_Gothic_sans';
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.area_text_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    max-width: 88%;
+    padding: 0px 40px;
+    gap: 10px;
+}
+
+.title_item h2 {
+    font-family: 'Giane_Gothic_sans';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.sub_title_item h3 {
+    font-family: 'Giane_Gothic_sans';
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.075em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.btn_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 167px;
+    height: 40px;
+    background: #D2853C;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+.btn_item h2 {
+    font-family: 'Giane_Gothic_sans';
+    font-size: 18px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+
+}
+
+#container_3 {
+    background-image: url(../img/bg_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container_3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px 0px 100px 0px;
+}
+
+.container_3_int {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+.area_container_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title_3 h2 {
+    font-family: 'Allrounder Monument';
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px 0px 60px 0px;
+}
+
+#container_4 {
+    background: linear-gradient(180deg, rgba(192, 87, 87, 0.2) 55.06%, rgba(192, 87, 87, 0) 100%), linear-gradient(180deg, rgba(255, 141, 40, 0.2) 0%, rgba(255, 141, 40, 0) 3.35%), #0F0907;
+    width: 100%;
+    height: 1300px;
+
+}
+
+.container_4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container_4_int {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    width: 100%;
+    max-width: 1360px;
+}
+
+.area_container_4 {
+    background-image: url(../img/bg_phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 0px 0px 180px 0px;
+    filter: drop-shadow(0px 24px 31px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}
+
+.area_texts_container_4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.area_texts_container_4_int {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+}
+
+.btn_container_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    background: #FE9027;
+    border-radius: 100px;
+    margin: 80px 0px 80px 0px;
+}
+
+.btn_container_4 h2 {
+    font-family: 'Giane_Gothic_sans';
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    margin: 0px;
+}
+
+.title_container_4 h2 {
+    font-family: 'Allrounder Monument';
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 40px 0px 60px 0px;
+}
+
+.title_legacy h2,
+.title_mindset h2,
+.title_innovation h2,
+.title_post h2 {
+    font-family: 'Giane_Gothic_sans';
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+.sub_title_legacy p,
+.sub_title_mindset p,
+.sub_title_innovation p,
+.sub_title_post p {
+    font-family: 'Giane_Gothic_sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #1D1A1A;
+    height: 100px;
+    width: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.copyright h2 {
+    font-family: 'Giane_Gothic_sans';
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+
+
+@media(max-width: 1024px) {
+    #container_1 {
+        height: 510px;
+    }
+
+
+    .area_container_4 {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .area_texts_container_4 {
+        max-width: 930px;
+    }
+}
+
+@media(max-width: 768px) {
+    #container_1 {
+        background-image: url(../img/img_header_mobile.png);
+        height: 1000px;
+        padding: 0px 0px 0px 0px;
+    }
+    .container_1 {
+        align-items: flex-end;
+    }
+    .container_1_int {
+        margin-bottom: 40px;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .area_texts_1 h2 {
+        font-size: 40px;
+    }
+    .area_texts_1 h3 {
+        font-size: 26px;
+    }
+    .btn_1 h2 {
+        font-size: 20px;
+    }
+    .container_3 {
+        padding: 40px 0px 40px 0px;
+    }
+    #container_4 {
+        height: 100%;
+        padding: 80px 0px 80px 0px;
+    }
+    .area_container_4 {
+        display: none;
+    }
+    .container_4_int {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .area_container_4_mobile {
+        background-image: url(../img/bg_phone_mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 755px;
+        max-width: 500px;
+        filter: drop-shadow(0px 24px 31px rgba(0, 0, 0, 0.25));
+        border-radius: 30px;
+    }
+
+    .area_texts_container_4_mobile {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .area_texts_container_4_int_mobile {
+        display: flex;
+        flex-direction: column;
+        max-width: 550px;
+        padding: 0px 60px 0px 60px;
+        width: 100%;
+    }
+
+    .btn_container_4_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        height: 50px;
+        background: #FE9027;
+        border-radius: 100px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .btn_container_4_mobile h2 {
+        font-family: 'Giane_Gothic_sans';
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 0.075em;
+        margin: 0px;
+    }
+
+    .title_container_4_mobile h2 {
+        font-family: 'Allrounder Monument';
+        font-weight: 500;
+        font-size: 30px;
+        letter-spacing: 0.075em;
+        color: #FFFFFF;
+        margin: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .title_legacy_mobile h2,
+    .title_mindset_mobile h2,
+    .title_innovation_mobile h2,
+    .title_post_mobile h2 {
+        font-family: 'Giane_Gothic_sans';
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        text-align: initial;
+    }
+
+    .sub_title_legacy_mobile p,
+    .sub_title_mindset_mobile p,
+    .sub_title_innovation_mobile p,
+    .sub_title_post_mobile p {
+        font-family: 'Giane_Gothic_sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.075em;
+        color: #FFFFFF;
+        margin: 0px;
+        text-align: initial;
+    }
+
+
+}
+
+@media(max-width: 425px) {
+
+    .area_menu {
+        display: none;
+    }
+
+    .area_menu_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .icon_menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    .menu_close {
+        display: none;
+        width: 40px;
+        fill: #fff;
+    }
+    .icon {
+        background-color: #fff;
+        border-radius: 10px;
+        width: 30px;
+        height: 4px;
+    }
+    @keyframes move {
+        0% {
+            top: -100%;
+
+        }
+
+        100% {
+            top: 100px;
+        }
+
+    }
+    .area_menu_int_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        padding: 0px 60px;
+    }
+    .area_menu_mobile_total {
+        display: none;
+        transition: top 1s ease;
+        width: 100%;
+        position: absolute;
+        background-color: #fff;
+        right: 0;
+        top: -100px;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px 40px 0px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav ul a {
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        list-style: none;
+    
+    }
+    
+    nav ul a li {
+        font-family: 'Giane_Gothic_sans';
+        font-weight: bold;
+        letter-spacing: 0.075em;
+        
+    }
+    
+    .modal {
+        gap: 20px;
+    }
+    .area_modal_int svg {
+        width: 60px;
+    }
+    .texts_modal h2 {
+        font-size: 26px;
+    }
+    .texts_modal p {
+        font-size: 14px;
+    }
+    .container_1_int {
+        max-width: max-content;
+    }
+    .area_texts_1 {
+        width: 100%;
+    }
+
+    .title_2 h2 {
+        font-size: 30px;
+    }
+
+    .title_3 h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .area_container_4_mobile {
+        height: 630px;
+    }
+    .post_mobile {
+        display: none;
+    }
+    .copyright h2 {
+        font-size: 16px;
+    }
+}

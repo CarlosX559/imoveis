@@ -551,6 +551,12 @@ footer {
         height: 970px;
     }
 }
+@media(max-width: 1440px) {
+    #container_1 {
+        height: 728px;
+    }
+   
+}
 
 @media(max-width: 1024px) {
     #container_1 {

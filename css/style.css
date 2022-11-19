@@ -573,6 +573,7 @@ footer {
 
 .logo_baldy {
     display: flex;
+    padding: 0px 20px;
 }
 
 .logo_baldy img {
@@ -885,9 +886,7 @@ footer {
         width: 90%;
         text-align: center;
     }
-    .logo_baldy {
-        padding: 0px 20px;
-    }
+  
 }
 @media(max-width: 375px) {
     .area_texts_1 h2 {

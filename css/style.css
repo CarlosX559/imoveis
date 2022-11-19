@@ -30,11 +30,12 @@ header {
 }
 
 .area_menu_mobile {
-    display: none;
+    display: none !important;
 }
 
 .area_menu {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -44,6 +45,7 @@ header {
 
 .area_creci {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -61,6 +63,7 @@ header {
 
 .area_menu_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -70,6 +73,7 @@ header {
 
 nav ul {
     display: flex;
+    display: -webkit-flex;
     gap: 60px;
     align-items: center;
     margin: 0px;
@@ -102,6 +106,7 @@ nav ul a li {
 
 .container_1 {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -110,6 +115,7 @@ nav ul a li {
 
 .container_1_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: flex-end;
     width: 100%;
     max-width: 1440px;
@@ -118,6 +124,7 @@ nav ul a li {
 
 .area_texts_1 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     align-items: center;
     width: max-content;
@@ -146,9 +153,15 @@ nav ul a li {
 a {
     text-decoration: none;
 }
-
+.btn_1_header {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
 .btn_1 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     max-width: 380px;
@@ -165,6 +178,7 @@ a {
     font-size: 20px;
     letter-spacing: 0.075em;
     margin: 0px;
+    font-weight: bold;
 }
 
 .vetor_1 {
@@ -196,6 +210,7 @@ a {
 
 .container_2 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     width: 100%;
     padding: 80px 0px 100px 0px;
@@ -203,12 +218,14 @@ a {
 
 .container_2_int {
     display: flex;
+    display: -webkit-flex;
     width: 100%;
     max-width: 1440px;
 }
 
 .area_container_2 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -226,12 +243,14 @@ a {
 
 .area_imgs {
     display: flex !important;
+    display: -webkit-flex;
     width: 86% !important;
     max-width: 1440px;
 }
 
 .owl-item {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
 
 }
@@ -302,6 +321,7 @@ a {
 
 .area_modal_int {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -313,6 +333,7 @@ a {
 
 .modal {
     display: flex;
+    display: -webkit-flex;
     align-items: flex-start;
     gap: 40px;
     padding: 0px 20px;
@@ -320,6 +341,7 @@ a {
 
 .modal_int {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     gap: 40px;
 }
@@ -358,6 +380,7 @@ a {
 
 .area_text_item {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
@@ -389,6 +412,7 @@ a {
 
 .btn_item {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 167px;
@@ -415,6 +439,7 @@ a {
 
 .container_3 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     width: 100%;
     padding: 80px 0px 100px 0px;
@@ -422,6 +447,7 @@ a {
 
 .container_3_int {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     width: 100%;
     max-width: 1440px;
@@ -430,6 +456,7 @@ a {
 
 .area_container_3 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -453,6 +480,7 @@ a {
 
 .container_4 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -460,6 +488,7 @@ a {
 
 .container_4_int {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     margin: 0px 20px;
     width: 100%;
@@ -487,6 +516,7 @@ a {
 
 .area_texts_container_4 {
     display: flex;
+    display: -webkit-flex;
     justify-content: flex-end;
     width: 100%;
     max-width: 1200px;
@@ -494,6 +524,7 @@ a {
 
 .area_texts_container_4_int {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     max-width: 550px;
     width: 100%;
@@ -501,6 +532,7 @@ a {
 
 .btn_container_4 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 380px;
@@ -558,14 +590,17 @@ a {
 
 footer {
     background-color: #1D1A1A;
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 
 .copyright {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
     height: 100%;
     width: 100%;
 }
@@ -580,12 +615,12 @@ footer {
 }
 
 .title_footer {
-    text-align: end;
-    width: 42%;
+    text-align: center;
 }
 
 .area_footer {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -593,6 +628,7 @@ footer {
 
 .logo_baldy {
     display: flex;
+    display: -webkit-flex;
     padding: 0px 20px;
 }
 
@@ -668,7 +704,7 @@ footer {
     }
 
     .btn_1 h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .container_3 {
@@ -691,6 +727,7 @@ footer {
 
     .area_container_4_mobile {
         display: flex;
+        display: -webkit-flex;
         background-image: url(../img/bg_phone_mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -704,20 +741,31 @@ footer {
 
     .area_texts_container_4_mobile {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
         width: 100%;
     }
 
     .area_texts_container_4_int_mobile {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         max-width: 550px;
         padding: 0px 20px 0px 20px;
         width: 100%;
     }
-
+    .btn_container_4_m {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_4_int {
+        gap: 40px;
+    }
     .btn_container_4_mobile {
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -725,16 +773,16 @@ footer {
         height: 50px;
         background: #FE9027;
         border-radius: 100px;
-        margin-top: 40px;
         padding: 0px 20px;
     }
 
     .btn_container_4_mobile h2 {
         font-family: 'Giane_Gothic_sans';
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 0.075em;
         margin: 0px;
+        text-transform: uppercase;
     }
 
     .title_container_4_mobile h2 {
@@ -746,7 +794,7 @@ footer {
         margin: 20px 0px 20px 0px;
         text-align: center;
     }
-
+   
     .title_legacy_mobile h2,
     .title_mindset_mobile h2,
     .title_innovation_mobile h2,
@@ -783,7 +831,8 @@ footer {
     }
 
     .area_menu_mobile {
-        display: flex;
+        display: flex !important;
+        display: -webkit-flex !important;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -792,6 +841,7 @@ footer {
 
     .icon_menu {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         gap: 5px;
         cursor: pointer;
@@ -824,6 +874,7 @@ footer {
 
     .area_menu_int_mobile {
         display: flex;
+        display: -webkit-flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
@@ -850,6 +901,7 @@ footer {
     }
     nav ul {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
@@ -900,10 +952,18 @@ footer {
         font-size: 18px;
     }
 
-    .btn_1 h2 {
-        font-size: 20px;
+    .btn_1 {
+        max-width: 260px;
     }
-
+    .btn_1 h2 {
+        font-size: 16px;
+    }
+    .btn_container_4_mobile {
+        max-width: 260px;
+    }
+    .btn_container_4_mobile h2 {
+        font-size: 16px;
+    }
     .area_texts_1 {
         width: 100%;
     }
@@ -925,14 +985,14 @@ footer {
     .title_mindset_mobile h2,
     .title_innovation_mobile h2,
     .title_post_mobile h2 {
-        text-shadow: 4px 4px 4px #000;
+        text-shadow: 4px 4px 4px #1D1A1A;
     }
 
     .sub_title_legacy_mobile p,
     .sub_title_mindset_mobile p,
     .sub_title_innovation_mobile p,
     .sub_title_post_mobile p {
-        text-shadow: 4px 4px 4px #000;
+        text-shadow: 4px 4px 4px #1D1A1A;
     }
 
     .container_4_int {
@@ -941,6 +1001,7 @@ footer {
 
     .texts_about_mobile {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         align-items: flex-end;
         width: 100%;
@@ -952,7 +1013,7 @@ footer {
     }
 
     .post_mobile {
-        display: none;
+        display: none !important;
     }
 
     .copyright h2 {
@@ -976,9 +1037,12 @@ footer {
         border-radius: 100px;
     }
 
-    .btn_container_4_mobile,
-    .btn_1 {
-        padding: 0px 10px;
+    footer {
+        height: 150px;
+    }
+    .copyright {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 

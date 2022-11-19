@@ -17,7 +17,9 @@
     font-family: 'Allrounder Monument';
     src: url('../fonts/Moritz-Kleinsorge-Allrounder-Monument-Medium.otf');
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -256,12 +258,6 @@ a {
 
 }
 
-.item {
-    max-width: max-content;
-    width: 100%;
-
-}
-
 .img_modal {
     cursor: pointer;
 }
@@ -272,6 +268,7 @@ a {
     background-size: cover;
     width: 340px;
     height: 563px;
+    z-index: 10;
 }
 
 .img_2 {
@@ -280,6 +277,7 @@ a {
     background-size: cover;
     width: 360px;
     height: 563px;
+    z-index: 10;
 }
 
 .img_3 {
@@ -288,6 +286,7 @@ a {
     background-size: cover;
     width: 340px;
     height: 563px;
+    z-index: 10;
 }
 
 @keyframes modal {

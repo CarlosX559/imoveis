@@ -23,17 +23,17 @@
 
                 <nav>
                     <ul>
-                        <a href="#">
+                        <a href="#lancamentos">
                             <li>
                                 Lançamentos
                             </li>
                         </a>
-                        <a href="#">
+                        <a href="#luxo">
                             <li>
                                 Imóveis de luxo
                             </li>
                         </a>
-                        <a href="#">
+                        <a href="#sobre">
                             <div class="area_creci">
                                 <li>
                                     Sobre
@@ -56,17 +56,17 @@
                 <div class="area_menu_mobile_total">
                     <nav>
                         <ul>
-                            <a href="#">
+                            <a href="#lancamentos">
                                 <li>
                                     Lançamentos
                                 </li>
                             </a>
-                            <a href="#">
+                            <a href="#luxo">
                                 <li>
                                     Imóveis de luxo
                                 </li>
                             </a>
-                            <a href="#">
+                            <a href="#sobre">
                                 <div class="area_creci">
                                     <li>
                                         Sobre
@@ -106,7 +106,7 @@
                     <h3>IMÓVEIS DE LUXO</h3>
 
                     <a class="btn_1_header"
-                        href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20tudo%20bem?%20É%20um%20prazer%20lhe%20atender.%20Sou%20o%20Fabio%20Baldy.%20Como%20posso%20ajudar?"
+                    href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20Pode%20me%20ajudar?"
                         target="_blank">
                         <div class="btn_1">
                             <h2>
@@ -125,7 +125,7 @@
 
     <section id="container_2">
 
-        <div class="container_2">
+        <div class="container_2" id="lancamentos">
             <div class="container_2_int">
 
                 <div class="area_container_2">
@@ -245,7 +245,7 @@
 
     <section id="container_3">
 
-        <div class="container_3">
+        <div class="container_3"  id="luxo">
             <div class="container_3_int">
 
                 <div class="area_container_3">
@@ -285,7 +285,7 @@
         <div class="container_4">
             <div class="container_4_int">
 
-                <div class="area_container_4">
+                <div class="area_container_4"  id="sobre"> 
 
                     <div class="area_texts_container_4">
 
@@ -310,7 +310,7 @@
                             </div>
 
                             <a class="btn_container_4_area"
-                                href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20tudo%20bem?%20É%20um%20prazer%20lhe%20atender.%20Sou%20o%20Fabio%20Baldy.%20Como%20posso%20ajudar?"
+                            href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20Pode%20me%20ajudar?"
                                 target="_blank">
                                 <div class="btn_container_4">
                                     <h2>
@@ -458,7 +458,7 @@
                 </div>
 
                 <a class="btn_container_4_m"
-                    href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20tudo%20bem?%20É%20um%20prazer%20lhe%20atender.%20Sou%20o%20Fabio%20Baldy.%20Como%20posso%20ajudar?"
+                    href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20Pode%20me%20ajudar?"
                     target="_blank">
                     <div class="btn_container_4_mobile">
                         <h2>
@@ -472,7 +472,7 @@
     </section>
 
     <a target="_blank"
-        href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20tudo%20bem?%20É%20um%20prazer%20lhe%20atender.%20Sou%20o%20Fabio%20Baldy.%20Como%20posso%20ajudar?">
+        href="https://api.whatsapp.com/send?phone=5511959983336&text=Olá!%20Pode%20me%20ajudar?">
         <div class="whats_left">
             <img src="img/whatsapp.svg" alt="">
         </div>
@@ -501,7 +501,7 @@
     </footer>
 
     <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/script.js" async></script>
+    <script src="js/script.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="//code.jivosite.com/widget/rQS45bAUJU" async></script>
     <script type="text/javascript">
@@ -511,13 +511,17 @@
             $(".owl-carousel").owlCarousel({
 
                 items: 3,
-                loop: true,
+                loop: false,
                 nav: false,
-                autoplay: true,
+                autoplay: false,
                 autoplayTimeout: 8000,
                 dots: false,
                 responsive: {
                     375: {
+                        items: 1,
+                        margin: 40
+                    },
+                    600: {
                         items: 1,
                         margin: 40
                     },

@@ -38,7 +38,20 @@ header {
     width: 100%;
     height: 100%;
 }
-
+.area_logo_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.area_logo_header p {
+    font-family: 'Giane_Gothic_sans';
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px;
+}
 .area_menu_int {
     display: flex;
     justify-content: space-between;
@@ -545,6 +558,26 @@ footer {
     margin: 0px;
     padding: 0px 20px;
 }
+.title_footer {
+    text-align: end;
+    width: 42%;
+} 
+
+.area_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo_baldy {
+    display: flex;
+}
+
+.logo_baldy img {
+    width: 100%;
+    max-width: 160px;
+}
 
 @media(max-width: 1920px) {
     #container_1 {
@@ -633,7 +666,7 @@ footer {
         display: flex;
         flex-direction: column;
         max-width: 550px;
-        padding: 0px 60px 0px 60px;
+        padding: 0px 20px 0px 20px;
         width: 100%;
     }
 
@@ -641,11 +674,12 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 380px;
+        width: 100%;
+        max-width: 380px;
         height: 50px;
         background: #FE9027;
         border-radius: 100px;
-        margin: 40px 0px 0px 0px;
+       margin-top: 40px;
     }
 
     .btn_container_4_mobile h2 {
@@ -691,7 +725,7 @@ footer {
         margin: 0px;
         text-align: initial;
     }
-
+   
 
 }
 
@@ -818,4 +852,17 @@ footer {
     .copyright h2 {
         font-size: 16px;
     }
+    .title_footer {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media(max-width: 375px) {
+    .btn_1 {
+        width: 330px;
+    }
+    .btn_1 h2 {
+        font-size: 18px;
+    }
+   
 }

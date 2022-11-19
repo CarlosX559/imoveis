@@ -25,7 +25,7 @@ function modal() {
     });
 
 }
-modal();
+window.addEventListener('load', modal());
 
 function menu(){
     $(".menu_opener").click(

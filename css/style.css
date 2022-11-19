@@ -50,6 +50,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-top: 8px;
 }
 
 .area_creci p {
@@ -825,10 +826,10 @@ footer {
 
 }
 
-@media(max-width: 425px) {
+@media(max-width: 600px) {
 
     .area_menu {
-        display: none;
+        display: none !important;
     }
 
     .area_menu_mobile {

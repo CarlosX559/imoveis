@@ -854,7 +854,26 @@ footer {
         font-size: 30px;
     }
     .area_container_4_mobile {
-        height: 630px;
+        height: 700px;
+    }
+    .title_legacy_mobile h2, .title_mindset_mobile h2, .title_innovation_mobile h2, .title_post_mobile h2 {
+        text-shadow: 4px 4px 4px #000;
+    }
+    .sub_title_legacy_mobile p, .sub_title_mindset_mobile p, .sub_title_innovation_mobile p, .sub_title_post_mobile p {
+        text-shadow: 4px 4px 4px #000;
+    }
+    .container_4_int {
+        margin: 0px;
+    }
+    .texts_about_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .innovation_mobile {
+        max-width: 240px;
+        width: 100%;
     }
     .post_mobile {
         display: none;
@@ -865,6 +884,9 @@ footer {
     .title_footer {
         width: 90%;
         text-align: center;
+    }
+    .logo_baldy {
+        padding: 0px 20px;
     }
 }
 @media(max-width: 375px) {
@@ -877,5 +899,18 @@ footer {
     .btn_1 h2 {
         font-size: 18px;
     }
-   
+    .img_1, .img_2, .img_3 {
+        background-size: contain;
+        width: 322px;
+        height: 500px;
+    }
+    .title_item h2 {
+        font-size: 22px;
+    }
+    .sub_title_item h3 {
+        font-size: 20px;
+    }
+    .area_text_item {
+        padding: 0px 20px;
+    }
 }

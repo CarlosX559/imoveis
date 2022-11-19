@@ -1,6 +1,6 @@
 function modal() {
 
-    var modal = document.querySelectorAll('.img');
+    var modal = document.querySelectorAll('.img_modal');
     var closeModal = document.querySelector('.area_modal_int svg ');
     modal.forEach((element) => {
         element.addEventListener('click', () => {

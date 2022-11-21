@@ -247,7 +247,7 @@ a {
 .area_imgs {
     display: flex !important;
     display: -webkit-flex;
-    width: 86% !important;
+    width: 86%;
     max-width: 1440px;
 }
 
@@ -409,7 +409,11 @@ a {
     color: #FFFFFF;
     margin: 0px;
 }
-
+.link_btn {
+    width: 167px;
+    height: 40px;
+    margin-bottom: 30px;
+}
 .btn_item {
     display: flex;
     display: -webkit-flex;
@@ -420,6 +424,7 @@ a {
     background: #D2853C;
     border-radius: 100px;
     margin-bottom: 30px;
+    z-index: 999;
 }
 
 .btn_item h2 {
@@ -680,6 +685,9 @@ footer {
 }
 
 @media(max-width: 768px) {
+    .area_imgs {
+        width: 100% !important;
+    }
     #container_1 {
         background-image: url(../img/img_header_mobile.png);
         height: 1000px;

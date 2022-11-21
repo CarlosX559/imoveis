@@ -20,6 +20,7 @@ body {
 
 .container_1 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -28,6 +29,7 @@ body {
 
 .container_1_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     width: 100%;
     max-width: 1440px;
@@ -35,6 +37,7 @@ body {
 
 .area_container_1 {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -42,6 +45,7 @@ body {
 
 .area_texts_container_1 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
@@ -94,6 +98,7 @@ body {
 
 .area_form_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -117,6 +122,7 @@ form {
 
 .form {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -190,6 +196,7 @@ input {
 
 .container_2_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     width: 100%;
     max-width: 1440px;
@@ -197,6 +204,7 @@ input {
 
 .area_container_2 {
     display: flex;
+    display: -webkit-flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -211,6 +219,7 @@ input {
 
 .area_texts_container_2 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     gap: 40px;
     width: 100%;
@@ -238,6 +247,7 @@ input {
 
 .container_3 {
     display: flex;
+    display: -webkit-flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -247,6 +257,7 @@ input {
 
 .container_3_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -256,6 +267,7 @@ input {
 
 .area_galery {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -278,6 +290,7 @@ input {
 
 .area_texts_container_3 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     gap: 30px;
     width: 100%;
@@ -319,7 +332,8 @@ input {
 
 }
 
-.area_modal, .area_modal_2 {
+.area_modal,
+.area_modal_2 {
     animation: modal 300ms ease-in;
     transition: all ease-in-out .3s;
     display: none;
@@ -337,7 +351,8 @@ input {
     z-index: 999;
 }
 
-.area_modal_int, .area_modal_int_2 {
+.area_modal_int,
+.area_modal_int_2 {
     display: flex;
     display: -webkit-flex;
     align-items: center;
@@ -345,11 +360,13 @@ input {
     height: 100%;
 }
 
-.area_modal_int svg, .area_modal_int_2 svg {
+.area_modal_int svg,
+.area_modal_int_2 svg {
     cursor: pointer;
 }
 
-.modal, .modal_2 {
+.modal,
+.modal_2 {
     display: flex;
     display: -webkit-flex;
     align-items: flex-start;
@@ -357,7 +374,8 @@ input {
     padding: 0px 20px;
 }
 
-.modal_int, .modal_int_2 {
+.modal_int,
+.modal_int_2 {
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -381,6 +399,7 @@ input {
 
 .container_4 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -390,6 +409,7 @@ input {
 
 .container_4_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -398,6 +418,7 @@ input {
 
 .area_container_4 {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     flex-direction: column;
     gap: 40px;
@@ -438,6 +459,7 @@ input {
 
 .stars {
     display: flex;
+    display: -webkit-flex;
     gap: 20px;
     width: 100%;
     max-width: 320px;
@@ -451,6 +473,7 @@ input {
 
 .container_5 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -458,6 +481,7 @@ input {
 
 .container_5_int {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -466,6 +490,7 @@ input {
 
 .area_container_5 {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -474,6 +499,7 @@ input {
 
 .area_info_container_5 {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     width: 100%;
     max-width: 1440px;
@@ -482,6 +508,7 @@ input {
 
 .area_texts_container_5 {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     gap: 20px;
     max-width: 520px;
@@ -535,10 +562,12 @@ input {
     margin: 0px;
     font-weight: bold;
 }
+
 .area_5 img {
     max-width: max-content;
     width: 100%;
 }
+
 .title_container_5 {
     max-width: 800px;
 }
@@ -552,8 +581,6 @@ input {
     color: #FFFFFF;
 
 }
-
-
 
 footer {
     background-color: #fff;
@@ -627,18 +654,22 @@ footer {
     #container_1 {
         height: 970px;
     }
+
     .area_texts_container_1 {
         text-align: center;
     }
+
     .area_container_1 {
         flex-direction: column;
         align-items: center;
         gap: 40px;
     }
+
     .area_texts_container_2 {
         text-align: center;
         gap: 20px;
     }
+
     .area_container_2 {
         margin-top: 30px;
         flex-direction: column;
@@ -646,28 +677,35 @@ footer {
         gap: 20px;
         padding: 0px 20px;
     }
+
     .area_texts_container_3 {
         text-align: center;
     }
+
     .area_container_3 {
         padding: 0px 20px;
     }
+
     .title_container_4 h2 {
         padding: 0px 20px;
     }
+
     .area_info_container_5 {
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 40px;
     }
+
     .area_container_5 {
         gap: 0px;
         padding: 0px 20px;
     }
+
     .btn_5_area {
         margin-top: 30px;
     }
+
     .area_texts_container_5 {
         align-items: center;
     }
@@ -680,92 +718,125 @@ footer {
         font-size: 28px;
         text-shadow: 4px 4px 4px #1d1a1a;
     }
+
     .sub_title_container_1 h3 {
         font-size: 16px;
         text-shadow: 4px 4px 4px #1d1a1a;
     }
+
     .sub_title_container_1_p p {
         font-size: 16px;
         text-shadow: 4px 4px 4px #1d1a1a;
     }
 
-    .title_container_2 h2, .title_container_3 h2, .title_container_5 h2  {
+    .title_container_2 h2,
+    .title_container_3 h2,
+    .title_container_5 h2 {
         font-size: 32px;
     }
-    .sub_title_container_2 p, .sub_title_container_3 p  {
+
+    .sub_title_container_2 p,
+    .sub_title_container_3 p {
         font-size: 16px;
     }
 
     .title_container_4 h2 {
         font-size: 20px;
     }
+
     .title_info h2 {
         font-size: 22px;
     }
+
     .sub_info p {
         font-size: 16px;
     }
+
     .btn_5_area {
         margin-top: 20px;
     }
+
     .btn_5 h2 {
         font-size: 16px;
     }
 }
+
 @media(max-width: 425px) {
     #container_1 {
         background-image: url(img/bg_header_mobile.png);
         height: 440px;
     }
+
     .area_container_1 {
         margin-top: 560px;
     }
+
     .area_form {
         z-index: 999;
     }
+
     .area_container_2 {
         margin-top: 460px;
     }
+
     .enviar {
         font-size: 12px;
     }
+
     .modal_int img {
         height: 300px;
         object-fit: cover;
     }
-    .area_modal_int svg, .area_modal_int_2 svg{
+
+    .area_modal_int svg,
+    .area_modal_int_2 svg {
         width: 40px;
     }
-    .modal, .modal_2 {
+
+    .modal,
+    .modal_2 {
         gap: 10px;
     }
+
     .title_form {
         padding: 0px 20px;
     }
+
     .title_form h2 {
         font-size: 22px;
     }
+
     .title_container_1 h2 {
         font-size: 22px;
     }
+
     .sub_title_container_1_p p {
         font-size: 14px;
     }
+
     .sub_title_container_1 h3 {
         font-size: 14px;
     }
-    .title_container_2 h2, .title_container_3 h2, .title_container_5 h2 {
+
+    .title_container_2 h2,
+    .title_container_3 h2,
+    .title_container_5 h2 {
         font-size: 22px;
     }
-    .sub_title_container_2 p, .sub_title_container_3 p {
+
+    .sub_title_container_2 p,
+    .sub_title_container_3 p {
         font-size: 14px;
     }
+
     .title_container_4 h2 {
         font-size: 14px;
     }
+
     .title_info h2 {
         font-size: 20px;
     }
+
     .sub_info p {
         font-size: 14px;
     }

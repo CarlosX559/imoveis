@@ -50,6 +50,8 @@ body {
     gap: 10px;
     width: 100%;
     max-width: 620px;
+    background-color: hsl(0deg 0% 0% / 40%);
+    padding: 20px;
 }
 
 .sub_title_container_1_p p {
@@ -58,7 +60,6 @@ body {
     font-style: normal;
     font-size: 18px;
     letter-spacing: 0.075em;
-    text-transform: capitalize;
     color: #FFFFFF;
     margin: 0px;
 }
@@ -82,7 +83,6 @@ body {
     font-style: normal;
     font-size: 18px;
     letter-spacing: 0.075em;
-    text-transform: capitalize;
     color: #FFFFFF;
     margin: 0px;
 }

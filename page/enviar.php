@@ -21,14 +21,12 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
             "<strong>Whatsapp: </strong>".$telefone."</br>";
  
     //Enviando o email.
-            $status = mail($email_to, $assunto, $body, $header);
+        $status = mail($email_to, $assunto, $body, $header);
      
-     
-            if($status) {
-               header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
-           }
-        }else {
-           header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
-       }
+        if($status) {
+            header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
+        }
+                    
+}
 
-       ?>
+?>

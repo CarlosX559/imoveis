@@ -265,6 +265,10 @@ input {
     margin-top: 40px;
 }
 
+.area_container_3 {
+    z-index: 999;
+}
+
 .area_galery {
     display: flex;
     display: -webkit-flex;
@@ -319,6 +323,38 @@ input {
     margin: 0px;
 }
 
+.vetor_2 {
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+}
+
+.vetor_2 img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.vetor_3 {
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+}
+
+.vetor_3 img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.vetor_5 {
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+}
+
+.vetor_5 img {
+    width: 100%;
+    max-width: 200px;
+}
 
 @keyframes modal {
 
@@ -495,6 +531,7 @@ input {
     align-items: center;
     flex-direction: column;
     gap: 60px;
+    z-index: 999;
 }
 
 .area_info_container_5 {
@@ -562,7 +599,9 @@ input {
     margin: 0px;
     font-weight: bold;
 }
-
+.area_5 {
+    z-index: 1;
+}
 .area_5 img {
     max-width: max-content;
     width: 100%;

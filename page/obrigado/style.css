@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background-color: #1D1A1A;
+    width: 100%;
+    padding: 0px 0px 80px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container_int {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 20px;
+}
+
+.area_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.title h2 {
+    font-family: 'Open sans';
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.info p {
+    font-family: 'Open sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.area_video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px;    
+}
+.area_video h2 {
+    font-family: 'Open sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+
+.btn_area {
+    display: flex;
+    display: -webkit-flex;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    width: 100%;
+    height: 50px;
+    background: #FE9027;
+    border-radius: 100px;
+    padding: 0px 20px;
+}
+
+.btn h2 {
+    font-family: 'Open sans';
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    margin: 0px;
+    font-weight: bold;
+}
+
+@media(max-width: 1440px) {
+    .area_video iframe {
+        width: 100%;
+        max-width: 720px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 768px) {
+    .area_video iframe {
+        width: 100%;
+        max-width: 375px;
+        height: 280px;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .area_video h2 {
+        font-size: 16px;
+    }
+    .info p {
+        font-size: 20px;
+    }
+    .area_video {
+        gap: 20px;
+    }
+}
+@media(max-width: 425px) {
+    #container {
+        padding: 0px 0px 105px 0px;
+    }
+}
+
+
+

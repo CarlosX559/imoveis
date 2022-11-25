@@ -385,15 +385,15 @@ a {
     justify-content: flex-end;
     height: 100%;
     width: 100%;
-    max-width: 88%;
-    padding: 0px 40px;
+    padding-left: 20px;
     gap: 10px;
+    max-width: 318px;
 }
 
 .title_item h2 {
     font-family: 'Giane_Gothic_sans';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.075em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -403,9 +403,8 @@ a {
 .sub_title_item h3 {
     font-family: 'Giane_Gothic_sans';
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0.075em;
-    text-transform: lowercase;
     color: #FFFFFF;
     margin: 0px;
 }

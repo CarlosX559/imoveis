@@ -210,9 +210,11 @@ input {
     align-items: center;
     margin-top: -140px;
 }
+
 .area_img_container_2 {
     z-index: 999;
 }
+
 .area_img_container_2 img {
     width: 100%;
     max-width: max-content;
@@ -601,9 +603,11 @@ input {
     margin: 0px;
     font-weight: bold;
 }
+
 .area_5 {
     z-index: 1;
 }
+
 .area_5 img {
     max-width: max-content;
     width: 100%;
@@ -670,6 +674,18 @@ footer {
 .logo_baldy img {
     width: 100%;
     max-width: max-content;
+}
+
+.whats_left {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.whats_left img {
+    width: 60px;
+    border-radius: 100px;
 }
 
 @media(min-width: 1920px) {
@@ -807,9 +823,11 @@ footer {
         background-image: url(img/bg_header_mobile.png);
         height: 440px;
     }
+
     .area_texts_container_1 {
         max-width: 300px;
     }
+
     .area_container_1 {
         margin-top: 560px;
     }
@@ -883,7 +901,20 @@ footer {
     .sub_info p {
         font-size: 14px;
     }
+
+    .whats_left {
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        z-index: 999;
+    }
+
+    .whats_left img {
+        width: 50px;
+        border-radius: 100px;
+    }
 }
+
 @media(max-width: 375px) {
     .area_form {
         max-width: 340px;

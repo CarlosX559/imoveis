@@ -25,10 +25,10 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
      
      
             if($status) {
-               header("Location:obrigado/index.html");
+               header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
            }
         }else {
-           header("Location:obrigado/index.html");
+           header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
        }
 
        ?>

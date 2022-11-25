@@ -2,7 +2,7 @@
 
 if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
 
-    $assunto = "Formulário de contato Fabio";
+    $assunto = "#form de contato LP Tráfego";
     $nome = addslashes($_POST['nome']);
     $email = addslashes( $_POST['email']);
     $telefone = addslashes( $_POST['telefone']);
@@ -23,9 +23,9 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
     //Enviando o email.
         $status = mail($email_to, $assunto, $body, $header);
      
-        if($status) {
-            header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
-        }
+      
+        header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
+        
                     
 }
 

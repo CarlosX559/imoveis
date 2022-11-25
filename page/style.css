@@ -210,7 +210,9 @@ input {
     align-items: center;
     margin-top: -140px;
 }
-
+.area_img_container_2 {
+    z-index: 999;
+}
 .area_img_container_2 img {
     width: 100%;
     max-width: max-content;
@@ -805,7 +807,9 @@ footer {
         background-image: url(img/bg_header_mobile.png);
         height: 440px;
     }
-
+    .area_texts_container_1 {
+        max-width: 300px;
+    }
     .area_container_1 {
         margin-top: 560px;
     }
@@ -815,7 +819,7 @@ footer {
     }
 
     .area_container_2 {
-        margin-top: 460px;
+        margin-top: 500px;
     }
 
     .enviar {
@@ -878,5 +882,10 @@ footer {
 
     .sub_info p {
         font-size: 14px;
+    }
+}
+@media(max-width: 375px) {
+    .area_form {
+        max-width: 340px;
     }
 }

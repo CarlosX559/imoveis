@@ -536,7 +536,7 @@ input {
 }
 
 .title_video h2 {
-    font-family: 'Allrounder Monument';
+    font-family: 'Open sans';
     font-weight: 500;
     font-size: 48px;
     letter-spacing: 0.075em;
@@ -546,7 +546,7 @@ input {
 }
 
 .sub_title_video p {
-    font-family: 'Giane_Gothic_sans';
+    font-family: 'Open sans';
     font-size: 20px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -584,7 +584,7 @@ input {
 }
 
 .title_tour h2 {
-    font-family: 'Allrounder Monument';
+    font-family: 'Open sans';
     font-weight: 500;
     font-size: 48px;
     letter-spacing: 0.075em;
@@ -594,7 +594,7 @@ input {
 }
 
 .sub_title_tour p {
-    font-family: 'Giane_Gothic_sans';
+    font-family: 'Open sans';
     font-size: 20px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -742,7 +742,7 @@ footer {
 }
 
 .copyright h2 {
-    font-family: 'Giane_Gothic_sans';
+    font-family: 'Open sans';
     font-size: 20px;
     letter-spacing: 0.075em;
     color: #111;
@@ -755,7 +755,7 @@ footer {
 }
 
 .sub_title_footer p {
-    font-family: 'Giane_Gothic_sans';
+    font-family: 'Open sans';
     font-size: 14px;
     letter-spacing: 0.075em;
     color: #111;

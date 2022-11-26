@@ -1017,7 +1017,9 @@ footer {
     .area_creci {
         margin-top: 0px;
     }
-
+    .container_video_int {
+        padding: 40px 20px 60px 20px;
+    }
     .area_menu_mobile {
         display: flex !important;
         display: -webkit-flex !important;

@@ -978,7 +978,12 @@ footer {
         width: 375px;
         height: 245px;
     }
-
+    .container_video_int {
+        padding: 40px 20px 60px 20px;
+    }
+    .container_tour_int {
+        padding: 40px 20px 60px 20px;
+    }
     .area_texts_container_1 {
         max-width: 300px;
     }

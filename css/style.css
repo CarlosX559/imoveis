@@ -186,7 +186,7 @@ nav ul a li {
     display: flex;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 20px;
 }
 
@@ -569,8 +569,6 @@ a {
 #container_4 {
     background: linear-gradient(180deg, rgba(192, 87, 87, 0.2) 55.06%, rgba(192, 87, 87, 0) 100%), linear-gradient(180deg, rgba(255, 141, 40, 0.2) 0%, rgba(255, 141, 40, 0) 3.35%), #0F0907;
     width: 100%;
-    height: 1300px;
-
 }
 
 .container_4 {
@@ -588,6 +586,7 @@ a {
     margin: 0px 20px;
     width: 100%;
     max-width: 1360px;
+    padding: 40px 0px;
 }
 
 .area_container_4 {
@@ -716,7 +715,7 @@ footer {
 
 .sub_title_footer p {
     font-family: 'Giane_Gothic_sans';
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.075em;
     color: #FFFFFF;
     margin: 0px;

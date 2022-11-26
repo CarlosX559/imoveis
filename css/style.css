@@ -437,6 +437,7 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0px;
+    text-shadow: 8px 4px 4px #1d1a1a
 }
 
 .sub_title_item h3 {
@@ -446,6 +447,7 @@ a {
     letter-spacing: 0.075em;
     color: #FFFFFF;
     margin: 0px;
+    text-shadow: 8px 4px 4px #1d1a1a
 }
 
 .link_btn {

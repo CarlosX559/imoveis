@@ -6,6 +6,9 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
     $nome = addslashes($_POST['nome']);
     $email = addslashes( $_POST['email']);
     $telefone = addslashes( $_POST['telefone']);
+    
+    $empreendimento = addslashes( $_POST['empreendimento']);
+
  
     /*$email_to = "trafegobaldy@gmail.com";*/
     $email_to = "carlosuig@hotmail.com";
@@ -18,7 +21,8 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
     // Dados que serão enviados.
     $body = "<strong>Nome: </strong>".$nome."</br>".
             "<strong>Email: </strong>".$email."</br>".
-            "<strong>Whatsapp: </strong>".$telefone."</br>";
+            "<strong>Whatsapp: </strong>".$telefone."</br>".
+            "<strong>Nome do empreendimento: </strong>".$empreendimento."</br>";
  
     //Enviando o email.
         $status = mail($email_to, $assunto, $body, $header);

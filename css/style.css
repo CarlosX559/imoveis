@@ -385,7 +385,7 @@ a {
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     background: linear-gradient(180deg, #1D110B 0%, #AB6E36 100%), rgba(255, 255, 255, 0.2);
-    z-index: 999;
+    z-index: 9999;
 }
 
 .area_modal_int {
@@ -777,12 +777,14 @@ footer {
     width: 100%;
     max-width: 160px;
 }
-
+jdiv {
+    z-index: 99 !important;
+}
 .whats_left {
     position: fixed;
     left: 20px;
     bottom: 20px;
-    z-index: 999;
+    z-index: 99;
 }
 
 .whats_left img {

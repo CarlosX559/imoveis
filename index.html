@@ -237,6 +237,28 @@
                             </div>
                         </div>
                         <!--Fim Imagem 3-->
+
+                          <!--Imagem 4-->
+                          <div class="item">
+                            <div class="img_3 img_modal">
+                                <div class="area_text_item">
+                                    <div class="title_item">
+                                        <h2>
+                                            Lorem ipsum
+                                        </h2>
+                                    </div>
+                                    <div class="sub_title_item">
+                                        <h3>
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                        </h3>
+                                    </div>
+                                    <div class="btn_item">
+                                        <h2>Saiba mais</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Fim Imagem 4-->
                     </div>
 
 
@@ -302,6 +324,10 @@
 
                         <div class="item">
                             <img src="img/OSC_2.png" alt="">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/OSC_3.png" alt="">
                         </div>
 
                         <div class="item">
@@ -601,20 +627,25 @@
         </div>
 
     </footer>
-
+    
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/script.js" defer="defer"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="//code.jivosite.com/widget/rQS45bAUJU" defer="defer"></script>
     <script type="text/javascript">
-
+        const next = '<img src="img/arrow-next.png" alt="">';
+        const prev = '<img src="img/arrow-prev.png" alt="">';
         $(document).ready(() => {
 
             $(".owl-carousel").owlCarousel({
 
                 items: 3,
                 loop: false,
-                nav: false,
+                nav: true,
+                navText: [
+                    prev,
+                    next
+                ],
                 autoplay: true,
                 autoplayTimeout: 8000,
                 dots: false,
@@ -628,7 +659,7 @@
                         margin: 40
                     },
                     1024: {
-                        items: 2
+                        items: 3
                     },
                     1440: {
                         items: 3

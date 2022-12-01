@@ -505,7 +505,7 @@ input {
 
 
 #container_video {
-    background-color: #221109;
+    background-color: #fff;
     width: 100%;
     height: 100%;
 }
@@ -538,7 +538,7 @@ input {
     font-weight: 500;
     font-size: 48px;
     letter-spacing: 0.075em;
-    color: #FFFFFF;
+    color: #111;
     margin: 0px 0px 20px 0px;
     text-align: center;
 }
@@ -547,16 +547,13 @@ input {
     font-family: 'Open sans';
     font-size: 20px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #111;
     margin: 0px 0px 40px 0px;
     text-align: center;
 }
-
+/*Cor do fundo do tour*/
 #container_tour {
-    background-image: url(img/bg_tour.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+   background-color: #f2f2f2;
 }
 
 .container_tour {
@@ -586,7 +583,7 @@ input {
     font-weight: 500;
     font-size: 48px;
     letter-spacing: 0.075em;
-    color: #FFFFFF;
+    color: #111;
     margin: 0px 0px 20px 0px;
     text-align: center;
 }
@@ -595,7 +592,7 @@ input {
     font-family: 'Open sans';
     font-size: 20px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #111;
     margin: 0px 0px 40px 0px;
     text-align: center;
 }

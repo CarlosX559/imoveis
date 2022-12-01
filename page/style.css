@@ -364,31 +364,32 @@ input {
 
     0% {
         opacity: 0;
+        transform: scale3d(0,0,0);
     }
 
     100% {
         opacity: 1;
+        transform: scale3d(1,1,1);
     }
 
 }
 
 .area_modal,
 .area_modal_2 {
-    animation: modal 300ms ease-in;
+    animation: modal 400ms ease-in;
     transition: all ease-in-out .3s;
     display: none;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     position: fixed;
-    z-index: 1100;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     background: linear-gradient(180deg, #1D110B 0%, #AB6E36 100%), rgba(255, 255, 255, 0.2);
-    z-index: 1000;
+    z-index: 9999;
 }
 
 .area_modal_int,
@@ -424,8 +425,8 @@ input {
 
 .modal_int img {
     width: 100%;
-    max-width: 840px;
-    height: 500px;
+    max-width: max-content;
+    height: 100%;
     box-shadow: 1px 8px 13px 6px rgba(0, 0, 0, 0.38);
     border-radius: 30px;
 }
@@ -632,7 +633,7 @@ input {
     align-items: center;
     flex-direction: column;
     gap: 60px;
-    z-index: 999;
+    z-index: 10;
 }
 
 .area_info_container_5 {
@@ -1002,11 +1003,6 @@ footer {
 
     .enviar {
         font-size: 12px;
-    }
-
-    .modal_int img {
-        height: 300px;
-        object-fit: cover;
     }
 
     .area_modal_int svg,

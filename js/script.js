@@ -8,9 +8,11 @@ function modal() {
             $('.area_modal').css('display', 'flex').css('opacity', 1);
             var imgAtual = element.getAttribute('data-img');
             var title = element.getAttribute('data-title');
+            var sub_title = element.getAttribute('data-sub-title');
             
             document.querySelector('.modal img').setAttribute('src', imgAtual);
             document.querySelector('.texts_modal h2').innerHTML = title;
+            document.querySelector('.texts_modal p').innerHTML = sub_title;
 
         });
 

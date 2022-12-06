@@ -338,6 +338,7 @@ a {
     width: 340px;
     height: 563px;
     z-index: 10;
+    border-radius: 20px;
 }
 
 .img_2 {
@@ -347,6 +348,7 @@ a {
     width: 360px;
     height: 563px;
     z-index: 10;
+    border-radius: 20px;
 }
 
 .img_3 {
@@ -356,8 +358,11 @@ a {
     width: 340px;
     height: 563px;
     z-index: 10;
+    border-radius: 20px;
 }
-
+.owl-carousel .owl-item img {
+    border-radius: 60px;
+}
 @keyframes modal {
 
     0% {

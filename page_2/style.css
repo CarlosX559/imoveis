@@ -365,7 +365,7 @@ a {
     display: flex;
     padding: 0px;
     gap: 20px;
-    max-width: 50px;
+    max-width: 370;
 }
 
 .first_info {
@@ -374,7 +374,7 @@ a {
 
 .info_card li {
     font-family: 'Open sans';
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 0.04em;
     color: #fff;
     margin: 0px;

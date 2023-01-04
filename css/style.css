@@ -1047,19 +1047,19 @@ jdiv {
     .area_imgs {
         display: flex !important;
         display: -webkit-flex !important;
-        width: 26% !important;
+        width: 86% !important;
     }
     .owl-item {
-        justify-content: flex-start;
+        justify-content: center;
     }
     .area_menu {
         display: none !important;
     }
     .owl-next img {
-        right: -15px;
+        right: -25px;
     }
     .owl-prev img {
-        left: -35px;
+        left: -25px;
     }
     .owl-next img, .owl-prev img {
         width: 20px !important;

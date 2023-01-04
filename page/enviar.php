@@ -28,7 +28,7 @@ if(isset($_POST["email"]) && !empty(trim($_POST["email"]))) {
         $status = mail($email_to, $assunto, $body, $header);
      
       
-        header("Location: https://carlosx559.github.io/imoveis/page/obrigado/index.html");
+        header("Location: index.html");
         
                     
 }

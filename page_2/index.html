@@ -500,7 +500,33 @@
                                         <h2>Saiba mais</h2>
                                     </div>
                                 </a>
+                                <script>
+                                  
+                                  
+                            let btn_checkout = document.querySelectorAll('.et_pb_pricing_table_button');
+                                                            
 
+                                for (let i = 0; i < btn_checkout.length; i++) {
+
+                                    btn_checkout.forEach( () => {
+                                        btn_checkout[i].id = 'botao-hotmart-'+i;
+
+                                    });
+
+                                    
+                                }
+                                      
+                                
+                                   /*let btns_checkout = document.querySelectorAll('.et_pb_pricing_table_button')[0];
+                                   let btns_checkout = document.querySelectorAll('.et_pb_pricing_table_button');*/
+                                    /*btns_checkout.forEach( (key) => {
+                                        for(let i = 0; i <= btns_checkout.length; i++) {
+                                            key.id = 'botao-hotmart' + i;
+                                        }
+
+                                    });
+                                    window.addEventListener('load', btn());*/
+                                </script>
 
                             </div>
 

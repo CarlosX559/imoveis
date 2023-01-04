@@ -285,7 +285,7 @@ a {
 
 .area_imgs {
     display: flex !important;
-    display: -webkit-flex;
+    display: -webkit-flex !important;
     width: 86% !important;
     max-width: 1440px;
 }

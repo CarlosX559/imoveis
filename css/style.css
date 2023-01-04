@@ -881,9 +881,9 @@ jdiv {
 
 @media(max-width: 768px) {
     .area_imgs {
-        width: 100% !important;
+        width: 100%;
     }
-
+   
     .area_container_video iframe {
         width: 100%;
         max-width: 375px;
@@ -1044,15 +1044,22 @@ jdiv {
 }
 
 @media(max-width: 600px) {
-
+    .area_imgs {
+        display: flex !important;
+        display: -webkit-flex !important;
+        width: 26% !important;
+    }
+    .owl-item {
+        justify-content: flex-start;
+    }
     .area_menu {
         display: none !important;
     }
     .owl-next img {
-        right: 10px;
+        right: -15px;
     }
     .owl-prev img {
-        left: 10px;
+        left: -35px;
     }
     .owl-next img, .owl-prev img {
         width: 20px !important;

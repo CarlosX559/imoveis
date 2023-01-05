@@ -26,6 +26,15 @@ body {
     margin: 0px;
     padding: 0px;
 }
+#carouselExampleControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-block.w-100 {
+    width: 340px !important;
+    height: 563px !important;
+}
 
 header {
     width: 100%;
@@ -507,8 +516,8 @@ a {
     font-family: 'Giane_Gothic_sans';
     font-size: 18px;
     letter-spacing: 0.075em;
+    margin-bottom: 0px;
     color: #FFFFFF;
-
 }
 
 #container_3 {

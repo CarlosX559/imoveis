@@ -27,7 +27,7 @@ body {
     padding: 0px;
 }
 
-#carouselExampleControls {
+#carouselExampleControls, #carouselExampleControls_2 {
     display: none;
     justify-content: center;
     align-items: center;
@@ -1065,7 +1065,7 @@ jdiv {
     .container_2 {
         padding: 40px 0px 40px 0px;
     }
-    #carouselExampleControls {
+    #carouselExampleControls, #carouselExampleControls_2 {
         display: flex;
     }
     .slide-1.area_imgs, .slide-2.area_imgs  {

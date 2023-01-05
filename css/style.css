@@ -38,6 +38,7 @@ body {
 .d-block.w-100 {
     width: 340px !important;
     height: 563px !important;
+    border-radius: 20px;
 }
 .row.container_2 {
     margin: 0px;
@@ -1061,8 +1062,9 @@ jdiv {
 @media(max-width: 600px) {
     .d-block.w-100 {
         width: 100% !important;
-        height: 563px !important;
+        height: auto !important;
         object-fit: contain;
+        border-radius: 20px;
     }
     .area_imgs {
         display: flex !important;

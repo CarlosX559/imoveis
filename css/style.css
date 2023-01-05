@@ -26,23 +26,24 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
 #carouselExampleControls {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     filter: drop-shadow(2px 2px 0px rgba(100, 100, 100, 1));
 }
+
 .d-block.w-100 {
     width: 340px !important;
     height: 563px !important;
     border-radius: 20px;
 }
-.row.container_2 {
-    margin: 0px;
-}
+
 header {
     width: 100%;
     height: 100px;
@@ -343,6 +344,7 @@ a {
 }
 .img_modal {
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .img_1 {
@@ -1060,12 +1062,64 @@ jdiv {
 }
 
 @media(max-width: 600px) {
+    .container_2 {
+        padding: 40px 0px 40px 0px;
+    }
+    #carouselExampleControls {
+        display: flex;
+    }
+    .slide-1.area_imgs, .slide-2.area_imgs  {
+        display: none !important;
+    }
+    .row.container_Slide {
+        margin: 0px;
+    }
+    .container_Slide {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .vetor_1 {
+        z-index: -1;
+    }
+    .vetor_2 {
+        z-index: -1;
+    }
     .d-block.w-100 {
         width: 100% !important;
         height: auto !important;
         object-fit: contain;
         border-radius: 20px;
     }
+    .img_2 {
+        z-index: 0;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        opacity: 1 !important;
+        height: 89% !important;
+        width: 5% !important;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../img/arrow-prev.png) !important;
+        width: 20px !important;
+        height: 32px !important;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(../img/arrow-next.png) !important;
+        width: 20px !important;
+        height: 32px !important;
+    }
+    .carousel-control-prev {
+        left: 5px !important;
+    }
+    .carousel-control-next {
+        right: 5px !important;
+    }
+
     .area_imgs {
         display: flex !important;
         display: -webkit-flex !important;
@@ -1314,10 +1368,6 @@ jdiv {
     .whats_left img {
         width: 50px;
         border-radius: 100px;
-    }
-
-    footer {
-        height: 150px;
     }
 
     .copyright {

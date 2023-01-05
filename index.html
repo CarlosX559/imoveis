@@ -158,17 +158,19 @@
 
 
     </section>
-    <!--<div class="">
+   <div>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row">
+                <div class="row container_2">
                     <div class="col-lg-3">
                         <img class="d-block w-100" src="img/img_2.png" alt="First slide">
                     </div>
-                    <div class="col-lg-3">
-                        <img class="d-block w-100" src="img/img_3.png" alt="First slide">
-                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row container_2">
                     <div class="col-lg-3">
                         <img class="d-block w-100" src="img/img_3.png" alt="First slide">
                     </div>
@@ -176,13 +178,7 @@
               </div>
 
               <div class="carousel-item">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <img class="d-block w-100" src="img/img_2.png" alt="First slide">
-                    </div>
-                    <div class="col-lg-3">
-                        <img class="d-block w-100" src="img/img_3.png" alt="First slide">
-                    </div>
+                <div class="row container_2">
                     <div class="col-lg-3">
                         <img class="d-block w-100" src="img/img_3.png" alt="First slide">
                     </div>
@@ -199,7 +195,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-    </div>-->
+    </div>
 
 
     <section id="container_2">
@@ -726,7 +722,7 @@
 
             $(".slide-1").owlCarousel({
 
-                items: 1,
+                items: 3,
                 loop: false,
                 nav: true,
                 navText: [
@@ -738,16 +734,13 @@
                 dots: false,
                 responsive: {
                     375: {
-                        items: 1,
-                        margin: 100
+                        items: 1
                     },
                     425: {
-                        items: 1,
-                        margin: 100
+                        items: 1
                     },
                     600: {
-                        items: 1,
-                        margin: 100
+                        items: 1
                     },
                     1024: {
                         items: 2
@@ -760,7 +753,7 @@
             });
             $(".slide-2").owlCarousel({
 
-                items: 1,
+                items: 3,
                 loop: false,
                 nav: true,
                 navText: [

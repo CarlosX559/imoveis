@@ -432,6 +432,7 @@ input {
     width: 100%;
     max-width: max-content;
     box-shadow: 1px 8px 13px 6px rgba(0, 0, 0, 0.38);
+    border-radius: 30px;
 }
 
 
@@ -477,6 +478,7 @@ input {
     max-width: 300px;
     filter: drop-shadow(5px 5px 15px rgba(64, 30, 13, 0.3));
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .title_container_4 {

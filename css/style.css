@@ -110,6 +110,14 @@ nav ul a {
 
 }
 
+jdiv {
+    display: none !important;
+}
+
+#jivo-sound-agent_message {
+    display: none !important;
+}
+
 nav ul a li {
     font-family: 'Giane_Gothic_sans';
     font-weight: bold;
@@ -678,6 +686,12 @@ a {
     flex-direction: column;
     max-width: 550px;
     width: 100%;
+}
+
+.texts_about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .btn_container_4 {
